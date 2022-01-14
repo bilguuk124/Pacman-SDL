@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SDL2_Basic_Setup"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\CMAKE\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2_Basic_Setup">
+				<Option output="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/bin/SDL2_Basic_Setup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/opt/homebrew/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2_Basic_Setup"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SDL2_Basic_Setup/fast">
+				<Option output="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/bin/SDL2_Basic_Setup" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
+					<Add directory="/opt/homebrew/include/SDL2"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 SDL2_Basic_Setup/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/main.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMAKE/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\CMAKE\"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMAKE/FindSDL2Mixer.cmake">
+			<Option virtualFolder="CMake Files\CMAKE\"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMAKE/FindSDL2TTF.cmake">
+			<Option virtualFolder="CMake Files\CMAKE\"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMAKE/FindSDL2_IMAGE.cmake">
+			<Option virtualFolder="CMake Files\CMAKE\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
