@@ -74,7 +74,7 @@ Message( STATUS "SDL2Mixer_FOUND: " ${SDL2Mixer_FOUND} )
 
 Message("")
 
-#-- file(COPY resources DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}) --#
+file(COPY resources DESTINATION ${CMAKE_RUNTIME_OUTPUT_DIRECTORY})
 
 # ------- End Finds ------ #
 
