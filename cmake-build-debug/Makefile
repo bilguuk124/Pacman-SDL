@@ -129,6 +129,78 @@ SDL2_Basic_Setup/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/build
 .PHONY : SDL2_Basic_Setup/fast
 
+src/graphics.o: src/graphics.c.o
+.PHONY : src/graphics.o
+
+# target to build an object file
+src/graphics.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o
+.PHONY : src/graphics.c.o
+
+src/graphics.i: src/graphics.c.i
+.PHONY : src/graphics.i
+
+# target to preprocess a source file
+src/graphics.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.i
+.PHONY : src/graphics.c.i
+
+src/graphics.s: src/graphics.c.s
+.PHONY : src/graphics.s
+
+# target to generate assembly for a file
+src/graphics.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.s
+.PHONY : src/graphics.c.s
+
+src/init.o: src/init.c.o
+.PHONY : src/init.o
+
+# target to build an object file
+src/init.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o
+.PHONY : src/init.c.o
+
+src/init.i: src/init.c.i
+.PHONY : src/init.i
+
+# target to preprocess a source file
+src/init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.i
+.PHONY : src/init.c.i
+
+src/init.s: src/init.c.s
+.PHONY : src/init.s
+
+# target to generate assembly for a file
+src/init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.s
+.PHONY : src/init.c.s
+
+src/input.o: src/input.c.o
+.PHONY : src/input.o
+
+# target to build an object file
+src/input.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o
+.PHONY : src/input.c.o
+
+src/input.i: src/input.c.i
+.PHONY : src/input.i
+
+# target to preprocess a source file
+src/input.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.i
+.PHONY : src/input.c.i
+
+src/input.s: src/input.c.s
+.PHONY : src/input.s
+
+# target to generate assembly for a file
+src/input.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.s
+.PHONY : src/input.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -153,6 +225,102 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/sds.o: src/sds.c.o
+.PHONY : src/sds.o
+
+# target to build an object file
+src/sds.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o
+.PHONY : src/sds.c.o
+
+src/sds.i: src/sds.c.i
+.PHONY : src/sds.i
+
+# target to preprocess a source file
+src/sds.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.i
+.PHONY : src/sds.c.i
+
+src/sds.s: src/sds.c.s
+.PHONY : src/sds.s
+
+# target to generate assembly for a file
+src/sds.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.s
+.PHONY : src/sds.c.s
+
+src/shuffle.o: src/shuffle.c.o
+.PHONY : src/shuffle.o
+
+# target to build an object file
+src/shuffle.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o
+.PHONY : src/shuffle.c.o
+
+src/shuffle.i: src/shuffle.c.i
+.PHONY : src/shuffle.i
+
+# target to preprocess a source file
+src/shuffle.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.i
+.PHONY : src/shuffle.c.i
+
+src/shuffle.s: src/shuffle.c.s
+.PHONY : src/shuffle.s
+
+# target to generate assembly for a file
+src/shuffle.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.s
+.PHONY : src/shuffle.c.s
+
+src/tetris.o: src/tetris.c.o
+.PHONY : src/tetris.o
+
+# target to build an object file
+src/tetris.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o
+.PHONY : src/tetris.c.o
+
+src/tetris.i: src/tetris.c.i
+.PHONY : src/tetris.i
+
+# target to preprocess a source file
+src/tetris.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.i
+.PHONY : src/tetris.c.i
+
+src/tetris.s: src/tetris.c.s
+.PHONY : src/tetris.s
+
+# target to generate assembly for a file
+src/tetris.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.s
+.PHONY : src/tetris.c.s
+
+src/utility.o: src/utility.c.o
+.PHONY : src/utility.o
+
+# target to build an object file
+src/utility.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o
+.PHONY : src/utility.c.o
+
+src/utility.i: src/utility.c.i
+.PHONY : src/utility.i
+
+# target to preprocess a source file
+src/utility.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.i
+.PHONY : src/utility.c.i
+
+src/utility.s: src/utility.c.s
+.PHONY : src/utility.s
+
+# target to generate assembly for a file
+src/utility.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.s
+.PHONY : src/utility.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +330,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... SDL2_Basic_Setup"
+	@echo "... src/graphics.o"
+	@echo "... src/graphics.i"
+	@echo "... src/graphics.s"
+	@echo "... src/init.o"
+	@echo "... src/init.i"
+	@echo "... src/init.s"
+	@echo "... src/input.o"
+	@echo "... src/input.i"
+	@echo "... src/input.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/sds.o"
+	@echo "... src/sds.i"
+	@echo "... src/sds.s"
+	@echo "... src/shuffle.o"
+	@echo "... src/shuffle.i"
+	@echo "... src/shuffle.s"
+	@echo "... src/tetris.o"
+	@echo "... src/tetris.i"
+	@echo "... src/tetris.s"
+	@echo "... src/utility.o"
+	@echo "... src/utility.i"
+	@echo "... src/utility.s"
 .PHONY : help
 
 

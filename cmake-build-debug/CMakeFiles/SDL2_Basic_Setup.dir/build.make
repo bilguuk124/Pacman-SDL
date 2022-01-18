@@ -79,21 +79,126 @@ CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/main.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.s
 
+CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o: ../src/graphics.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/graphics.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/graphics.c > CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/graphics.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o: ../src/init.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/init.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/init.c > CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/init.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o: ../src/tetris.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/tetris.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/tetris.c > CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/tetris.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o: ../src/sds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/sds.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/sds.c > CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/sds.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o: ../src/utility.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/utility.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/utility.c > CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/utility.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o: ../src/input.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/input.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/input.c > CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/input.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.s
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o: CMakeFiles/SDL2_Basic_Setup.dir/flags.make
+CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o: ../src/shuffle.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o -c /Users/bilguuk124/Documents/Pacman-SDL/src/shuffle.c
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/bilguuk124/Documents/Pacman-SDL/src/shuffle.c > CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.i
+
+CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/bilguuk124/Documents/Pacman-SDL/src/shuffle.c -o CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.s
+
 # Object files for target SDL2_Basic_Setup
 SDL2_Basic_Setup_OBJECTS = \
-"CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.o"
+"CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o" \
+"CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o"
 
 # External object files for target SDL2_Basic_Setup
 SDL2_Basic_Setup_EXTERNAL_OBJECTS =
 
 bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/main.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/graphics.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/init.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/tetris.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/sds.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/utility.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/input.c.o
+bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/src/shuffle.c.o
 bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/build.make
 bin/SDL2_Basic_Setup: /opt/homebrew/lib/libSDL2_ttf.dylib
 bin/SDL2_Basic_Setup: /opt/homebrew/lib/libSDL2_ttf.dylib
 bin/SDL2_Basic_Setup: /opt/homebrew/lib/libSDL2_image.dylib
 bin/SDL2_Basic_Setup: /opt/homebrew/lib/libSDL2_mixer.dylib
 bin/SDL2_Basic_Setup: CMakeFiles/SDL2_Basic_Setup.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable bin/SDL2_Basic_Setup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable bin/SDL2_Basic_Setup"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2_Basic_Setup.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

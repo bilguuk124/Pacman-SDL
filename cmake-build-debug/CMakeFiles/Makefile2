@@ -81,12 +81,12 @@ clean: CMakeFiles/SDL2_Basic_Setup.dir/clean
 CMakeFiles/SDL2_Basic_Setup.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SDL2_Basic_Setup.dir/build.make CMakeFiles/SDL2_Basic_Setup.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target SDL2_Basic_Setup"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target SDL2_Basic_Setup"
 .PHONY : CMakeFiles/SDL2_Basic_Setup.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SDL2_Basic_Setup.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SDL2_Basic_Setup.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SDL2_Basic_Setup.dir/rule

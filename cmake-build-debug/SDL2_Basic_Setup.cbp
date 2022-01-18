@@ -82,7 +82,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/defs.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/graphics.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/graphics.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/init.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/init.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/input.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/input.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
 		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/main.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/main.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/sds.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/sds.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/shuffle.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/shuffle.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/tetris.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/tetris.h">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/utility.c">
+			<Option target="SDL2_Basic_Setup"/>
+		</Unit>
+		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/src/utility.h">
 			<Option target="SDL2_Basic_Setup"/>
 		</Unit>
 		<Unit filename="/Users/bilguuk124/Documents/Pacman-SDL/CMakeLists.txt">

@@ -8,7 +8,7 @@
 -- CMAKE_PROJECT_NAME: SDL2_Basic_Setup
 -- CMAKE_FINDCMAKE: /Users/bilguuk124/Documents/Pacman-SDL/CMAKE
 
--- SOURCE entry point : src/main.c
+-- SOURCE entry point : src/main.csrc/main.hsrc/defs.hsrc/graphics.hsrc/graphics.csrc/init.csrc/init.hsrc/tetris.hsrc/tetris.csrc/sds.csrc/sds.hsrc/utility.hsrc/utility.csrc/input.csrc/input.hsrc/shuffle.csrc/shuffle.h
 
 
 -- FINDING SDL2

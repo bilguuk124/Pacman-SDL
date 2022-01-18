@@ -16,7 +16,7 @@ project(SDL2_Basic_Setup)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMAKE")
-set(SOURCE_FILES    src/main.c)
+set(SOURCE_FILES    src/main.c src/main.h src/defs.h src/graphics.h src/graphics.c src/init.c src/init.h src/tetris.h src/tetris.c src/sds.c src/sds.h src/utility.h src/utility.c src/input.c src/input.h src/shuffle.c src/shuffle.h)
 
 Message("")
 Message( STATUS "SOURCE entry point : " ${SOURCE_FILES} )
