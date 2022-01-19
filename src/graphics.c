@@ -27,7 +27,7 @@ void init_graphics(){
 	display = SDL_CreateTexture(render, SDL_PIXELFORMAT_RGBA8888, SDL_TEXTUREACCESS_TARGET, WINDOW_WIDTH, WINDOW_HEIGHT);
 	SDL_SetRenderTarget(render, display);
 
-	gFont = TTF_OpenFont("src/font/Incosolata-Regular.ttf", 30);
+	gFont = TTF_OpenFont("src/font/Inconsolata-Regular.ttf", 30);
 
 	if(gFont == NULL){
 		fprintf(stderr, "\n Ошибка загрузки TTF_FONT: %s\n", SDL_GetError());

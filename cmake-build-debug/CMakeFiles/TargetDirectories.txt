@@ -1,3 +1,0 @@
-/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/bilguuk124/Documents/Pacman-SDL/cmake-build-debug/CMakeFiles/SDL2_Basic_Setup.dir

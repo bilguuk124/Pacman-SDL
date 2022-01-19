@@ -197,7 +197,7 @@ void updateTetris(){
 		request.y += 1;
 		if(!render_current_shape(request)){
 			lock_delay_count++;
-		} else lock_delay_count == 0;
+		} else lock_delay_count = 0;
 		break;
 
 	case RESTART:
@@ -301,7 +301,17 @@ bool render_current_shape(Shape_Movement shape_request){
 	ghost_request.type = ghost;
 
 	while(render_shape(ghost_request, GHOST_SHAPE_COORDS)) ghost_request.y += 1;
+	shape_request.type.color = shape_request.type.color & 0x00FFFFFF;
+	shape_request.type.color = shape_request.type.color | 0xE5000000;
+	if(render_shape(shape_request, CURRENT_SHAPE_COORDS)){
+		CURRENT_SHAPE = shape_request;
+
+		return true;
+	}
+	return false;
+
 }
+
 bool render_shape(Shape_Movement shape_request, uint8_t current_coords[]){
 	uint8_t block_render_queue[8] = {0};
 	if(!can_render_shape(shape_request, block_render_queue)) return false;
