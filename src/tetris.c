@@ -1,14 +1,23 @@
 #include "tetris.h"
 
+// Главный механизм игры: контроллирует рендером и фигурой
+
 void draw_playing_field(){
 	int i;
+
+	//Установить цвет рендеринга
+	//Это устанавливает «цвет фона»
 	SDL_SetRenderDrawColor(render, 204, 192, 179, 255);
 
+	// Очистить рендер
+	//'установить' цвет фона, определенный в SDL_SetRenderDrawColor(...)
 	SDL_RenderClear(render);
 
 	i = PLAYFIELD_WIDTH * PLAYFIELD_HEIGHT;
 	while(i --> 0)
 		set_playfield( i % PLAYFIELD_WIDTH, i /PLAYFIELD_WIDTH, playfield[i]);
+
+	//Обновить экран
 	setRenderChanged();
 }
 
@@ -23,20 +32,30 @@ Uint32 auto_drop_timer (Uint32 interval, void* param){
 
 	event.type = SDL_USEREVENT;
 	event.user = userEvent;
+
 	SDL_PushEvent(&event);
 	return interval;
 }
 
+//Инициализация игрвого механизма
 void initTetris(){
+
+	// Установить таймер
 	if(cb_timer != 0){
 		SDL_RemoveTimer(cb_timer);
 	}
 	cb_timer = 0;
+
 	SHAPE_ACTION = NONE;
+
+
+	// Очистить игровую площадку
 	int i = PLAYFIELD_HEIGHT * PLAYFIELD_WIDTH;
 	while(i --> 0){
 		playfield[i] = EMPTY;
 	}
+
+	//Создать очередь фигур
 	current_queue_index = 0;
 	i = shape_queue_size;
 	int n = 0;
@@ -47,6 +66,7 @@ void initTetris(){
 		shape_queue[i] = n;
 	}
 
+	// Перетасываем очередь фигур
 	shuffle(shape_queue, shape_queue_size, sizeof(uint8_t));
 
 	draw_playing_field();
@@ -55,11 +75,12 @@ void initTetris(){
 
 }
 
+// Функция зафиксирование фигуры на место
 void lockShape(){
 	lock_delay_count = 0;
 	int i = 4;
 	while( i--> 0){
-		uint8_t x_coord = i*2;
+		uint8_t x_coord = i * 2;
 		uint8_t y_coord = x_coord + 1;
 		uint8_t _x = CURRENT_SHAPE_COORDS[x_coord];
 		uint8_t _y = CURRENT_SHAPE_COORDS[y_coord];
@@ -69,28 +90,37 @@ void lockShape(){
 
 		set_playfield(_x,_y,CURRENT_SHAPE.type.color);
 	}
+
+	// Очищаем строку если строка полно
 	uint8_t row = PLAYFIELD_HEIGHT;
 	int8_t row_to_copy_to = -1;
+
 	uint8_t completed_lines = 0;
 
 	while(row --> 0){
 		uint8_t col;
 		bool complete_line = true;
 
+		//Проверить полон ли строка
 		for(col = 0; col < PLAYFIELD_WIDTH; col++){
 			if(get_playfield(col, row) == EMPTY){
 				complete_line = false;
 				break;
 			}
 		}
+		//Сама очистка
 		if(complete_line){
+
 			completed_lines++;
+
 			if(row_to_copy_to < row){
 				row_to_copy_to = row;
 			}
+
 			for(col = 0; col < PLAYFIELD_WIDTH; col++){
 				set_playfield(col, row, EMPTY);
 			}
+
 		} else if(row_to_copy_to > row){
 			for(col = 0; col < PLAYFIELD_WIDTH; col ++){
 				set_playfield(col, row_to_copy_to, get_playfield(col, row));
@@ -100,6 +130,7 @@ void lockShape(){
 		}
 	}
 
+	// Добавляем количество очков
 	if(completed_lines > 0){
 		// Сразу 4 строк
 		score += completed_lines/4 * 800;
@@ -117,7 +148,9 @@ void lockShape(){
 	spawn_shape();
 }
 
+//Функция рендера кол-во очков
 void render_score(){
+
 	SDL_Color textColor = { 0x11, 0x1F, 0X3F};
 	sds string_score = printfcomma(score);
 
@@ -136,12 +169,17 @@ void render_score(){
 	}
 	int mWidth = textSurface->w;
 	int mHeight = textSurface->h;
+
+	// Сам рендеринг
 	SDL_Rect renderQuad = {WINDOW_WIDTH - mWidth - 10, 10 ,mWidth, mHeight};
+
 	SDL_RenderCopy(render, mTexture,NULL,&renderQuad);
+
 	SDL_DestroyTexture(mTexture);
 	SDL_FreeSurface(textSurface);
 }
 
+// Функция обновление игры
 void updateTetris(){
 	if(cb_timer == 0){
 		cb_timer = SDL_AddTimer(500, auto_drop_timer, NULL);
@@ -150,7 +188,7 @@ void updateTetris(){
 	bool on_score_area = false;
 	while (i --> 0){
 		uint8_t x_coord = i*2;
-		uint8_t y_coord = x_coord*2;
+		uint8_t y_coord = x_coord + 1;
 
 		uint8_t _y = CURRENT_SHAPE_COORDS[y_coord];
 
@@ -177,6 +215,7 @@ void updateTetris(){
 	switch(SHAPE_ACTION){
 	case NONE:
 		break;
+
 	case ROTATE:
 		request.rotation = (request.rotation + 1) % 4;
 		render_current_shape(request);
@@ -189,6 +228,7 @@ void updateTetris(){
 	case RIGHT:
 		request.x += 1;
 		render_current_shape(request);
+		break;
 	case DROP:
 		request.y += 1;
 		while(render_current_shape(request)) request.y += 1;
@@ -334,8 +374,8 @@ bool render_shape(Shape_Movement shape_request, uint8_t current_coords[]){
 		uint8_t _x = block_render_queue[x_coord];
 		uint8_t _y = block_render_queue[y_coord];
 
-		current_coords[x_coord] = x_coord;
-		current_coords[y_coord] = y_coord;
+		current_coords[x_coord] = _x;
+		current_coords[y_coord] = _y;
 
 		draw_block(_x, _y, shape_request.type.color);
 

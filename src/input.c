@@ -9,11 +9,13 @@ void getInput(){
 		case SDL_QUIT:
 			exit(0);
 			break;
+
 		case SDL_KEYDOWN:
-			switch(event.key.keysym.sym){
+			switch (event.key.keysym.sym) {
 			case SDLK_ESCAPE:
 				exit(0);
 				break;
+
 			case SDLK_s:
 			case SDLK_DOWN:
 				SHAPE_ACTION = DOWN;

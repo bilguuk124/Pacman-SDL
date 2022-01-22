@@ -57,7 +57,7 @@ void draw_block(uint8_t x, uint8_t y, uint32_t color){
 	assert(x >= 0 && x < PLAYFIELD_WIDTH);
 	assert(y >= 0 && y<PLAYFIELD_HEIGHT);
 
-	uint16_t x_tl = x * (BLOCK_SIZE +1 ) +1 ;
+	uint16_t x_tl = x * (BLOCK_SIZE + 1) + 1 ;
 	uint16_t y_tl = y * (BLOCK_SIZE + 1) + 1;
 
 	uint16_t x_tr = x_tl + BLOCK_SIZE;
